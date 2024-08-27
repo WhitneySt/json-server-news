@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Whitney Stevenson",
+      "email": "whit@gmail.com",
+      "password": "123456789*Ws",
+      "avatar": "https://definicion.de/wp-content/uploads/2019/07/perfil-de-usuario.png"
+    },
+    {
+      "id": "6b63",
+      "name": "Fernanda Mantilla",
+      "email": "fer@gmail.com",
+      "password": "123456789*Ws",
+      "repeatPassword": "123456789*Ws",
+      "avatar": "https://res.cloudinary.com/dspyfujx0/image/upload/v1724776580/cloudinary-f8/kibau45eme5ed8pzvpcy.jpg"
+    }
+  ],
+  "news": [
+    {
+      "id": "1",
+      "title": "El primer ser humano que llegó a Marte",
+      "description": "El primer ser humano que llegó a Marte",
+      "categories": [
+        1,
+        2
+      ],
+      "photo": "https://economiasustentable.com/wp-content/uploads/2024/01/Captura-de-pantalla-2024-01-09-a-las-12.32.17.png",
+      "likes": [
+        1
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Tecnología"
+    },
+    {
+      "id": "2",
+      "name": "novedades"
+    },
+    {
+      "id": "3",
+      "name": "Sucesos"
+    },
+    {
+      "id": "4",
+      "name": "deportes"
+    },
+    {
+      "id": "5",
+      "name": "moda"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "userId": 1,
+      "newsId": 1,
+      "comment": "¡Qué gran noticia!"
+    }
+  ]
+}
